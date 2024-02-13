@@ -1,0 +1,29 @@
+.menubar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menulist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menulistli {
+    margin-right: 15px;
+  }
+  
+  .menulistli a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .menulistli a:hover {
+    color: #ffcc00;
+  }

@@ -1,0 +1,89 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.formlabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formbutton {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.messageok {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+  }
+  
+  .messageerror {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1; 
+    border-radius: 4px; 
+    color: #a94442;
+  }
+
+  .movielist {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .movieitem {
+    width: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+  }
+  
+  .movieposter {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .movieinfo {
+    text-align: center;
+  }
+  
+  .movietitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .moviereleaseyear {
+    font-size: 14px;
+    color: #777;
+  }
